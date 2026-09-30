@@ -1,0 +1,381 @@
+/*box model direction: top, right, bottom, left 
+gap: space for items inside layout containers like flex
+word-spacing: space for words*/
+
+#top-bar{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items:center;
+}
+.logo{
+    flex: 1;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: 700;
+    padding: 0px 0px 0px 20px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+nav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-family: 'Encode Sans Condensed';
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+    transition: 0.5s;
+}
+nav a{
+    color: #006400;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.home{
+    color:#006400;
+    transition: 0.5s;
+}
+.home:hover{
+    text-decoration:underline;
+}
+.about{
+    color:#006400;
+    transition: 0.5s;
+}
+.about:hover{
+    text-decoration:underline;
+}
+.projects{
+    color:#006400;
+    transition: 0.5s;
+}
+.projects:hover{
+    text-decoration:underline;
+}
+.skills{
+    color:#006400;
+    transition: 0.5s;
+}
+.skills:hover{
+     text-decoration:underline;
+}
+.creative-corner{
+    color:#006400;
+    transition: 0.5s;
+}
+.creative-corner:hover{
+     text-decoration:underline;
+}
+.contact{
+    color:#006400;
+    transition: 0.5s;
+}
+.contact:hover{
+     text-decoration:underline;
+}
+body{
+     margin: 0px 0px 0px 0px;
+}
+#content{
+    background-image: url('images/body\ background\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display:flex;
+    align-items: center;
+}
+h1{
+    text-align: left;
+    font-size: 23px;
+    letter-spacing:5px;
+    font-family: 'Julius Sans One';
+    font-weight: 600;
+    padding: 70px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+h2{
+    text-align: left;
+    font-size: 65px;
+    letter-spacing:5px;
+    font-family: 'Anton';
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+h3{
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    font-family: 'Commissioner';
+    text-transform: capitalize;
+    font-weight:normal;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+hr{
+    background-color: #006400;
+    padding: 0.5px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
+    opacity: 0.15;
+    width: 250px;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: 'Commissioner';
+    text-transform: normal;
+    font-weight:normal;
+    text-align: justify;
+    padding: 20px 0px 50px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.section-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding:0px 0px 0px 30px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline;
+}
+.section-1 a{
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 20px;
+    font-family: 'Encode Sans Condensed';
+    font-weight: 400;
+    
+}
+.my-projects{
+    color: white;
+    background-color: #006400;
+    padding: 10px 20px 10px 20px;
+    border: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 50px;
+    opacity: 0.7;
+    transition: 0s;
+}
+.my-projects:hover{
+    opacity: 1;
+    color: white
+}
+.about-me{
+    color: #006400;
+    background-color: none;
+    border-color: #006400;
+    border-style: solid;
+    padding: 10px 45px 10px 45px;
+    border: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 50px;
+    transition: 0s;
+}
+.about-me:hover{
+    background-color: #006400;
+    color: white;
+}
+.section-2{
+    flex: 1;
+}
+.section-2-image img{
+    width: 550px;
+    padding: 40px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 50px;
+}
+footer{
+    background-color: rgba(255, 255, 240, 1);
+    display: flex;
+    width: cover;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 60px 0px;
+}
+.science{
+    flex: 1;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Commissioner';
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+.design{
+    flex: 1;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Commissioner';
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+.technology{
+    flex: 1;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Commissioner';
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+.growth{
+    flex: 1;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Commissioner';
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+
+/*@media (max-width: 1024px){
+    .logo{
+        flex: 1;
+        text-align: left;
+        font-size: 28px;
+        font-family: 'Fuzzy Bubbles';
+        font-weight: 700;
+        padding: 0px 0px 0px 20px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color:#006400
+    }
+    nav{
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        font-size: 18px;
+        font-family: 'Encode Sans Condensed';
+        font-weight: 400;
+        padding: 0px 0px 0px 0px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color:#006400;
+        transition: 0.5s;
+    }
+    h1{
+        text-align: left;
+        font-size: 18px;
+        letter-spacing:3px;
+        font-family: 'Julius Sans One';
+        font-weight: 600;
+        padding: 40px 0px 0px 0px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color:#006400;
+    }
+    h2{
+        text-align: left;
+        font-size: 55px;
+        letter-spacing:3px;
+        font-family: 'Anton';
+        font-weight: 400;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color:#006400;
+    }
+    h3{
+        text-align: left;
+        font-size: 18px;
+        letter-spacing: 0px;
+        font-family: 'Commissioner';
+        text-transform: capitalize;
+        font-weight:normal;
+        padding: 0px 0px 0px 0px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color:#006400;
+    }
+    hr{
+        background-color: #006400;
+        padding: 0.5px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+        opacity: 0.15;
+        width: 180px;
+    }
+    p{
+        text-align: left;
+        font-size: 15px;
+        letter-spacing: 0px;
+        font-family: 'Commissioner';
+        text-transform: normal;
+        font-weight:normal;
+        text-align: justify;
+        padding: 20px 0px 50px 0px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        color:#006400;
+    }
+    .section-1{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding:0px 0px 0px 30px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        display: inline;
+    }
+    .section-1 a{
+        text-decoration: none;
+        white-space: nowrap;
+        font-size: 15px;
+        font-family: 'Encode Sans Condensed';
+        font-weight: 400; 
+    }
+    .my-projects{
+        color: white;
+        background-color: #006400;
+        padding: 7px 15px 7px 15px;
+        border: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 0px;
+        border-radius: 50px;
+        opacity: 0.7;
+        transition: 0s;
+    }
+    .about-me{
+        color: #006400;
+        background-color: none;
+        border-color: #006400;
+        border-style: solid;
+        padding: 7px 25px 7px 25px;
+        border: 10px 30px 10px 30px;
+        margin: 0px 0px 0px 20px;
+        border-radius: 50px;
+        transition: 0s;
+    }
+    .section-2{
+        flex: 0.8;
+    }
+    .section-2-image img{
+        width: 350px;
+        padding: 40px 0px 0px 0px;
+        border: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        border-radius: 50px;
+    }
+}

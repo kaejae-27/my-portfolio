@@ -1,0 +1,306 @@
+#top-bar{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items:center;
+}
+.logo{
+    flex: 1;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: 700;
+    padding: 0px 0px 0px 10px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+nav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-family: 'Encode Sans Condensed';
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+    transition: 0.5s;
+}
+nav a{
+    color: #006400;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.home{
+    color:#006400;
+    transition: 0.5s;
+}
+.home:hover{
+    text-decoration:underline;
+}
+.about{
+    color:#006400;
+    transition: 0.5s;
+}
+.about:hover{
+    text-decoration:underline;
+}
+.projects{
+    color:#006400;
+    transition: 0.5s;
+}
+.projects:hover{
+    text-decoration:underline;
+}
+.skills{
+    color:#006400;
+    transition: 0.5s;
+}
+.skills:hover{
+     text-decoration:underline;
+}
+.creative-corner{
+    color:#006400;
+    transition: 0.5s;
+}
+.creative-corner:hover{
+     text-decoration:underline;
+}
+.contact{
+    color:#006400;
+    transition: 0.5s;
+}
+.contact:hover{
+     text-decoration:underline;
+}
+body{
+     margin: 0px 0px 0px 0px;
+}
+#content{
+    background-image: url(images/body\ background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    padding: 15px 250px 30px 30px;
+}
+h1{
+    text-align: left;
+    font-size: 55px;
+    letter-spacing:5px;
+    font-family: 'Anton';
+    font-weight: 400;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+h2{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    padding: 0px 0px 40px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.section-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Commissioner';
+    color: #006400;
+}
+p{
+    font-size: 17px;
+    font-family: 'Commissioner';
+    font-weight: 450;
+    padding: 0px 0px 25px 90px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.email { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-family: 'Commissioner';
+    font-weight: 500;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.email-image{
+   width: 65px;
+    height: 65px;
+    background-color: #8FBC8F;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0px;
+}
+.email img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+.cellno { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-family: 'Commissioner';
+    font-weight: 500;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.cellno-image{
+    width: 65px;
+    height: 65px;
+    background-color: #8FBC8F;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0px;
+}
+.cellno img{
+   width: 50px;
+    height: 50px;
+    object-fit: contain;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+.fb { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-family: 'Commissioner';
+    font-weight: 500;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.fb-image{
+   width: 65px;
+    height: 65px;
+    background-color: #8FBC8F;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0px;
+}
+.fb img{
+  width: 50px;
+    height: 50px;
+    object-fit: contain;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+.ig { 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    font-family: 'Commissioner';
+    font-weight: 500;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+
+}
+.ig-image{
+    width: 65px;
+    height: 65px;
+    background-color: #8FBC8F;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0px;
+}
+.ig img{
+    width: 50px;   
+    object-fit: contain;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+.section-2-container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+    background-color: beige;
+    border-radius: 10px;
+    margin: auto;
+}
+.section-2{
+    margin: auto;
+}
+label{
+    font-size: 18px;
+    font-family: 'Commissioner';
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+    display: block;
+}
+input{
+    display:block;
+    width: 450px;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+textarea{
+    display:block;
+    width: 450px;
+    height: 150px;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+button{
+    text-decoration: none;
+    color: white;
+    background-color: #006400;
+    outline: none;
+    padding: 10px 175px 10px 175px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    border-radius: 50px;
+    opacity: 0.7;
+    transition: 0s;
+}
+button:hover{
+    opacity: 1;
+    color: white
+}

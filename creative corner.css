@@ -1,0 +1,164 @@
+#top-bar{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    align-items:center;
+    position: fixed;
+}
+.logo{
+    flex: 1;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: 700;
+    padding: 0px 0px 0px 10px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400
+}
+nav{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-family: 'Encode Sans Condensed';
+    font-weight: 400;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+    transition: 0.5s;
+}
+nav a{
+    color: #006400;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.home{
+    color:#006400;
+    transition: 0.5s;
+}
+.home:hover{
+    text-decoration:underline;
+}
+.about{
+    color:#006400;
+    transition: 0.5s;
+}
+.about:hover{
+    text-decoration:underline;
+}
+.projects{
+    color:#006400;
+    transition: 0.5s;
+}
+.projects:hover{
+    text-decoration:underline;
+}
+.skills{
+    color:#006400;
+    transition: 0.5s;
+}
+.skills:hover{
+     text-decoration:underline;
+}
+.creative-corner{
+    color:#006400;
+    transition: 0.5s;
+}
+.creative-corner:hover{
+     text-decoration:underline;
+}
+.contact{
+    color:#006400;
+    transition: 0.5s;
+}
+.contact:hover{
+     text-decoration:underline;
+}
+body{
+     margin: 0px 0px 0px 0px;
+}
+#content{
+    background-image: url(images/body\ background\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+h1{
+    text-align: left;
+    font-size: 55px;
+    letter-spacing:5px;
+    font-family: 'Anton';
+    font-weight: 400;
+    padding: 50px 0px 0px 30px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+h2{
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    padding: 0px 0px 20px 30px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Commissioner';
+    font-weight: 450;
+    padding: 0px 0px 30px 30px;
+    margin: 0px 0px 0px 0px;
+    color:#006400;
+}
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.hobby{
+    width: 20%;
+    text-align: center;
+    
+    width: 350px;
+    height: 415px;
+    border-radius: 20px;
+}
+h4{
+    font-size: 25px;
+    font-family: 'Commissioner';
+    font-weight: bold;
+    color: #006400;
+    padding: 0px 0px 5px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.hobby img{
+    width: 280px;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+p{
+    font-size: 18px;
+    margin: 0px;
+    font-family: 'Commissioner';
+    color: #006400;
+    padding: 5px 0px 20px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
